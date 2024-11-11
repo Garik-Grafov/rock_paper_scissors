@@ -47,10 +47,10 @@ function playGame() {
   let result = playRound(humanSelection, computerSelection);
   return result;
 }
-let game = playGame();
+// let game = playGame();
 let test = function (game) {
   for (let i = 1; i <= 5; i++) {
     game;
   }
 };
-console.log(test(game), humanScore, computerScore);
+// console.log(test(game), humanScore, computerScore);
